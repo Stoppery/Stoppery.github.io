@@ -1,0 +1,16 @@
+html {
+	margin: 0%;
+	padding: 0%;
+	background-color: black;
+}
+
+body {
+	color: aliceblue;
+}
+
+div {
+	height: 5vh;
+	width: 37vw;
+	font-size: 2vh;
+	padding: 40vh 31vw;
+}
