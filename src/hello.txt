@@ -1,0 +1,5 @@
+Hello world, my name is Stoppery
+I practice JavaScript programming
+I made this site for its further use as my business card
+As I improve my skills, I will replenish it
+In the meantime, here in the form of a test this text
