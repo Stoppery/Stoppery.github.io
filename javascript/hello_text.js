@@ -14,6 +14,6 @@ xmlhttp.onreadystatechange = function(){
 };
 
 
-xmlhttp.open("GET","/Stoppery.github.io/src/hello.txt",true);
+xmlhttp.open("GET","../src/hello.txt",true);
 xmlhttp.send();
 
