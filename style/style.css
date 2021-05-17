@@ -3,6 +3,8 @@
 	padding: 0%;
 }
 
+html,body {height: 100vh;}
+
 :root {
      /* light */
 	--c-light-background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
