@@ -21,5 +21,5 @@ checkbox.addEventListener("change", function() {
 	themeContainer.classList.toggle('light');
 });
 
-xmlhttp.open("GET","/Stoppery.github.io/src/hello.txt",true);
+xmlhttp.open("GET","../src/hello.txt",true);
 xmlhttp.send();
