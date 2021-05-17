@@ -83,7 +83,7 @@ input:checked + .slider:before {
 
 .greeting {
 	font-size: 1em;
-	padding: 40vh 10vw;
+	padding: 30vh 10vw;
 }
 
 #myh1id {
