@@ -26,10 +26,14 @@ body {
 	color: aliceblue;
 }
 
+.switch-left {
+	padding-top: 3vh;
+	padding-left: calc(100vw - 5em);
+}
+
 .switch {
 	position: relative;
-	margin-top: 3vh;
-	margin-left: calc(100vw - 5em);
+	
 	display: inline-block;
 	width: 4em;
 	height: 2em;
@@ -83,7 +87,7 @@ input:checked + .slider:before {
 
 .greeting {
 	font-size: 1em;
-	padding: 30vh 10vw;
+	padding: 40vh 10vw;
 }
 
 #myh1id {
