@@ -29,6 +29,8 @@ body {
 }
 
 .switch-left {
+	position: sticky;
+	top: 0;
 	padding-top: 3vh;
 	padding-left: calc(100vw - 5em);
 }
