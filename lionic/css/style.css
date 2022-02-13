@@ -13,6 +13,10 @@ a {
 	text-decoration: none;
 }
 
+a:focus {
+	outline: 3px solid #71A7E2;
+}
+
 img {
 	max-width: 100%;
 }
@@ -109,6 +113,15 @@ body {
 	background-color: #3172B9;
 	color: #fff;
 	border-radius: 3px;
+	transition: background-color .3s ease;
+}
+
+.btn:hover {
+	background-color: blue;
+}
+
+.btn:active {
+	background-color: #0E3B6C;
 }
 
 /* header */
@@ -122,6 +135,11 @@ body {
 	font-weight: 600;
 	color: #1c1c1c;
 	font-size: 15px;
+	transition: color .3s ease;
+}
+
+.header-link:hover {
+	color: #3172B9
 }
 
 .header-container {
@@ -142,7 +160,7 @@ body {
 
 /* hero */
 
-.hero {
+.section-hero {
 	padding-top: 100px;
 	padding-bottom: 150px;
 	background-image: url('../img/hero-bg.jpg');
@@ -151,13 +169,13 @@ body {
 	background-position: center;
 }
 
-.hero-content {
+.section-hero__content {
 	max-width: 50%;
 	flex-direction: column;
 	align-items: flex-start;
 }
 
-.hero-title {
+.section-hero__title {
 	margin: 0;
 	margin-bottom: 25px;
 	font-weight: 300;
@@ -165,7 +183,7 @@ body {
 	line-height: 130%;
 }
 
-.hero-descr {
+.section-hero__descr {
 	margin: 0;
 	margin-bottom: 34px;
 	font-size: 16px;
@@ -174,7 +192,7 @@ body {
 
 }
 
-.hero-btn {
+.section-hero__btn {
 	margin-bottom: 14px;
 	min-width: 250px;
 	padding-top: 20px;
@@ -182,13 +200,13 @@ body {
 	margin-bottom: 14px;
 }
 
-.hero-wrapper {
+.section-hero__wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.hero-secure {
+.section-hero__secure {
 	font-size: 11px;
 	line-height: 155%;
 	color: #787878;
@@ -221,14 +239,35 @@ body {
 	width: 270px;
 	border: 1px solid #E4E4E4;
 	border-radius: 5px;
+	transition-property: background-color, color;
+	transition-duration: .3s;
+	transition-timing-function: ease;
 }
 
 .services-item:not(:nth-child(4n)) {
 	margin-right: 30px;
 }
 
+.services-item:hover {
+	background-color: #3172b9;
+	cursor: pointer;
+}
+
+.services-item:hover .services-item-title,
+.services-item:hover .services-item-descr {
+	color: white;
+}
+
 .services-item-icon {
 	margin-bottom: 25px;
+}
+
+.services-item-icon path {
+	transition: fill .3s ease;
+}
+
+.services-item:hover .services-item-icon path {
+	fill : white;
 }
 
 .services-item-title {
@@ -238,6 +277,7 @@ body {
 	font-size: 20px;
 	line-height: 130%;
 	color: #1C1C1C;
+	transition: color .3s ease;
 }
 
 .services-item-descr {
@@ -246,6 +286,7 @@ body {
 	font-size: 14px;
 	line-height: 150%;
 	color: #787878;
+	transition: color .3s ease;
 }
 
 /* articles */
