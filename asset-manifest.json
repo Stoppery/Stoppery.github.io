@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98fe2251.css",
+    "main.js": "/static/js/main.ac2543e2.js",
+    "static/media/Outfit-Bold.ttf": "/static/media/Outfit-Bold.b2e2fcd8bc0c090b302c.ttf",
+    "static/media/Outfit-Regular.ttf": "/static/media/Outfit-Regular.e853df41b41bc9489a8b.ttf",
+    "index.html": "/index.html",
+    "main.98fe2251.css.map": "/static/css/main.98fe2251.css.map",
+    "main.ac2543e2.js.map": "/static/js/main.ac2543e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98fe2251.css",
+    "static/js/main.ac2543e2.js"
+  ]
+}
