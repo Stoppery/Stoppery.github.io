@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.98fe2251.css",
-    "main.js": "/static/js/main.ac2543e2.js",
-    "static/media/Outfit-Bold.ttf": "/static/media/Outfit-Bold.b2e2fcd8bc0c090b302c.ttf",
-    "static/media/Outfit-Regular.ttf": "/static/media/Outfit-Regular.e853df41b41bc9489a8b.ttf",
+    "main.css": "/static/css/main.9be922e2.css",
+    "main.js": "/static/js/main.af5812e9.js",
+    "static/media/Rubik-Bold.ttf": "/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
+    "static/media/Rubik-Medium.ttf": "/static/media/Rubik-Medium.0e121b4fa4d6e9bc5c69.ttf",
+    "static/media/Rubik-Regular.ttf": "/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
+    "static/media/pattern-bg-desktop.png": "/static/media/pattern-bg-desktop.5013c4f570ecf757f855.png",
     "index.html": "/index.html",
-    "main.98fe2251.css.map": "/static/css/main.98fe2251.css.map",
-    "main.ac2543e2.js.map": "/static/js/main.ac2543e2.js.map"
+    "static/media/icon-location.svg": "/static/media/icon-location.7e6459d2a9278295ae782e100965be4b.svg",
+    "static/media/icon-arrow.svg": "/static/media/icon-arrow.2eaaa5ee3602d5aa14a2dba69e9fb7a0.svg",
+    "main.9be922e2.css.map": "/static/css/main.9be922e2.css.map",
+    "main.af5812e9.js.map": "/static/js/main.af5812e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.98fe2251.css",
-    "static/js/main.ac2543e2.js"
+    "static/css/main.9be922e2.css",
+    "static/js/main.af5812e9.js"
   ]
 }
